@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".TennisMainActivity" >
+
+    <TextView
+        android:id="@+id/homeScore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center"
+        android:paddingRight="190dp"
+        android:text="@string/start_score"
+        android:textColor="@color/white"
+        android:textSize="100sp" />
+
+    <TextView
+        android:id="@+id/awayScore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center"
+        android:paddingLeft="190dp"
+        android:text="@string/start_score"
+        android:textColor="@color/white"
+        android:textSize="100sp" />
+
+    <TextView
+        android:id="@+id/homeGameScore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="170dp"
+        android:paddingTop="130dp"
+        android:text="@string/start_score"
+        android:textColor="@color/pale_green"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/awayGameScore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right|center_vertical"
+        android:paddingRight="170dp"
+        android:paddingTop="130dp"
+        android:text="@string/start_score"
+        android:textColor="@color/pale_green"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/homeSetScore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="170dp"
+        android:paddingTop="195dp"
+        android:text="@string/start_score"
+        android:textColor="@color/pale_orange"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/awaySetScore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right|center_vertical"
+        android:paddingRight="170dp"
+        android:paddingTop="195dp"
+        android:text="@string/start_score"
+        android:textColor="@color/pale_orange"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/dash1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:paddingTop="130dp"
+        android:text="@string/dash"
+        android:textColor="@color/pale_green"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/dash2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:paddingTop="195dp"
+        android:text="@string/dash"
+        android:textColor="@color/pale_orange"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/serving"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/serving"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="105dp"
+        android:paddingTop="8dp"
+        android:text="@string/doublezero"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/seconds"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:paddingRight="105dp"
+        android:paddingTop="8dp"
+        android:text="@string/doublezero"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/minutes"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top|center"
+        android:paddingTop="8dp"
+        android:text="@string/doublezero"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/colon1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="165dp"
+        android:paddingTop="6dp"
+        android:text="@string/colon"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/colon2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:paddingRight="165dp"
+        android:paddingTop="6dp"
+        android:text="@string/colon"
+        android:textSize="50sp" />
+
+</FrameLayout>
